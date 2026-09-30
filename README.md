@@ -1,4 +1,4 @@
-# Arch Linux Dotfiles
+# Arch Linux Dotfiles - Personal Takeaway
 
 A clean, reproducible, and maintainable dotfiles repository for Arch Linux with Hyprland/Niri, Caelestia/Quickshell, and modern CLI tools.
 
