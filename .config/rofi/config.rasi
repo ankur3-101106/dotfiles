@@ -1,0 +1,278 @@
+configuration {
+    font: "JetBrains Mono 14";
+
+    modi: "drun,run,filebrowser,window";
+
+    show-icons: true;
+
+    display-drun: "  apps";
+    display-run: "  term";
+    display-filebrowser: "  files";
+    display-window: "  window";
+
+    drun-display-format: "{name}";
+    window-format: "{w} · {c} · {t}";
+
+    hover-select: true;
+    me-select-entry: "MouseSecondary";
+    me-accept-entry: "MousePrimary";
+}
+
+* {
+    background: #11111b;
+    background-alt: #1e1e2e;
+    foreground: #cdd6f4;
+
+    selected: #89b4fa;
+    active: #a6e3a1;
+    urgent: #f38ba8;
+
+    border-color: @selected;
+}
+
+window {
+    location: center;
+    anchor: center;
+
+    fullscreen: false;
+    width: 35%;
+
+    margin: 0px;
+    padding: 0px;
+
+    border: 0px;
+    border-radius: 10px;
+
+    background-color: @background;
+}
+
+mainbox {
+    spacing: 10px;
+    margin: 0px;
+    padding: 20px;
+
+    background-color: inherit;
+
+    children: [
+        inputbar,
+        message,
+        custombox
+    ];
+}
+
+inputbar {
+    spacing: 10px;
+    margin: 0px;
+    padding: 8px 12px;
+
+    border: 0px;
+    border-radius: 8px;
+
+    background-color: @background-alt;
+    text-color: @foreground;
+
+    children: [
+        textbox-prompt-colon,
+        entry
+    ];
+}
+
+textbox-prompt-colon {
+    padding: 5px 0px;
+    expand: false;
+
+    str: " 🔎";
+
+    background-color: inherit;
+    text-color: inherit;
+}
+
+entry {
+    padding: 5px 0px;
+
+    background-color: @background-alt;
+    text-color: @foreground;
+
+    placeholder: "Search...";
+    placeholder-color: inherit;
+}
+
+custombox {
+    spacing: 0px;
+
+    orientation: horizontal;
+
+    background-color: @background;
+
+    children: [
+        mode-switcher,
+        listview
+    ];
+}
+
+mode-switcher {
+    enabled: true;
+    expand: false;
+
+    orientation: vertical;
+
+    spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    border: 0px;
+    border-radius: 8px 0px 0px 8px;
+
+    background-color: @background-alt;
+    text-color: @foreground;
+}
+
+button {
+    padding: 0px 20px;
+
+    border: 0px;
+    border-radius: 8px;
+
+    background-color: transparent;
+    text-color: @foreground;
+
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+
+    cursor: pointer;
+}
+
+button selected {
+    border: 2px 0px 2px 2px;
+    border-radius: 6px;
+
+    border-color: @border-color;
+
+    background-color: @selected;
+    text-color: @background;
+}
+
+listview {
+    enabled: true;
+
+    columns: 1;
+    lines: 6;
+
+    cycle: true;
+    dynamic: true;
+
+    scrollbar: false;
+
+    layout: vertical;
+    reverse: false;
+
+    fixed-height: true;
+    fixed-columns: true;
+
+    spacing: 5px;
+    margin: 0px;
+    padding: 10px;
+
+    border: 2px;
+    border-radius: 8px;
+
+    border-color: @border-color;
+
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element {
+    enabled: true;
+
+    spacing: 10px;
+    margin: 0px;
+    padding: 10px;
+
+    border: 0px;
+    border-radius: 8px;
+
+    background-color: transparent;
+    text-color: @foreground;
+
+    cursor: pointer;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element normal.active {
+    background-color: transparent;
+    text-color: @active;
+}
+
+element normal.urgent {
+    background-color: @urgent;
+    text-color: @background;
+}
+
+element selected.normal,
+element-text selected {
+    background-color: @selected;
+    text-color: @background;
+}
+
+element selected.active {
+    background-color: @selected;
+    text-color: @background;
+}
+
+element selected.urgent {
+    background-color: @selected;
+    text-color: @background;
+}
+
+element alternate.normal {
+    background-color: @background;
+    text-color: @foreground;
+}
+
+element alternate.active {
+    background-color: @active;
+    text-color: @background;
+}
+
+element alternate.urgent {
+    background-color: @urgent;
+    text-color: @background;
+}
+
+element-icon {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+}
+
+message {
+    enabled: true;
+
+    margin: 0px;
+    padding: 0px;
+
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+textbox {
+    padding: 12px;
+
+    border: 0px;
+    border-radius: 8px;
+
+    background-color: @background-alt;
+    text-color: @foreground;
+}

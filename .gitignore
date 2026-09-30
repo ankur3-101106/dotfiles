@@ -1,0 +1,164 @@
+# Machine-specific configurations (generated, hardware-specific)
+.config/niri/monitor.kdl
+.config/hypr/monitors.conf
+.config/hypr/monitors.lua
+.config/hypr/variables.lua.new
+.config/hypr/scheme/current.lua
+.config/caelestia/monitors/
+.config/gtk-3.0/bookmarks
+.config/gtk-4.0/servers
+.config/nwg-displays/profiles/
+
+# Secrets and sensitive data
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.id_rsa
+.id_ed25519
+.ssh/
+.gnupg/
+aws/
+azure/
+gcp/
+
+# Application caches and runtime state
+.cache/
+.config/*/Cache*/
+.config/*/cache*/
+.config/*/logs/
+.config/*/Logs/
+.config/Chromium/
+.config/chromium/
+.config/Code/
+.config/VSCodium/
+.config/vscode/
+.config/VSCode/
+.config/BraveSoftware/
+.config/google-chrome/
+.config/mozilla/
+.config/firefox/
+.config/Thunderbird/
+.config/discord/
+.config/Vesktop/
+.config/vesktop/
+.config/Spotify/
+.config/spotify/
+.config/Steam/
+.config/steam/
+.config/heroic/
+.config/lutris/
+.config/bottles/
+.config/obs-studio/
+.config/OBS/
+.config/kruler/
+.config/kde*/*
+.config/akonadi/
+.config/baloo/
+.config/kwin*
+.config/plasma*
+.config/kglobalshortcutsrc
+.config/khotkeysrc
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.bak
+*.swp
+*swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build artifacts
+build/
+dist/
+target/
+*.o
+*.so
+*.dll
+*.exe
+*.bin
+
+# Package manager
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv/
+.pip/
+
+# Language specific
+.cargo/
+.go/
+.rustup/
+.bun/
+.npm/
+.yarn/
+.pnpm-store/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup directories created by installer
+.dotfiles-backup-*/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Large media files (keep only small configs)
+*.iso
+*.img
+*.vmdk
+*.vdi
+*.qcow2
+
+# Test/coverage
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+.tox/

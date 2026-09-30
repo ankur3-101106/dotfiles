@@ -1,0 +1,162 @@
+# Official Arch packages (pacman)
+# Window managers / Compositors
+hyprland
+niri
+
+# Wayland utilities
+waybar
+rofi-wayland
+swaync
+wlogout
+hypridle
+hyprlock
+hyprpicker
+hyprpaper
+nwg-displays
+wlr-randr
+
+# Terminal emulators
+kitty
+ghostty
+foot
+alacritty
+
+# Shell & CLI tools
+bash
+fish
+zsh
+starship
+zoxide
+fzf
+bash-completion
+bat
+eza
+ripgrep
+fd
+jq
+yq
+btop
+htop
+nvtop
+fastfetch
+neofetch
+tree
+trash-cli
+multitail
+
+# Development tools
+git
+github-cli
+neovim
+lazygit
+docker
+docker-compose
+podman
+buildbase
+cmake
+meson
+ninja
+rustup
+go
+nodejs
+npm
+bun
+python
+python-pip
+python-virtualenv
+uv
+
+# Fonts
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
+ttf-font-awesome
+
+# GTK/Theming
+gtk3
+gtk4
+libadwaita
+qt5ct
+qt6ct
+kvantum
+kvantum-qt5
+wallust
+swww
+grim
+slurp
+swappy
+wl-clipboard
+cliphist
+
+# Audio
+pipewire
+pipewire-pulse
+pipewire-alsa
+pipewire-jack
+wireplumber
+pavucontrol
+playerctl
+cava
+
+# Network
+networkmanager
+network-manager-applet
+bluez
+bluez-utils
+blueman
+
+# File management
+nautilus
+thunar
+nnn
+yazi
+superfile
+
+# Applications
+firefox
+vlc
+mpv
+imv
+sioyek
+zathura
+zathura-pdf-mupdf
+obsidian
+discord
+vesktop
+
+# System
+systemd
+polkit
+gnome-keyring
+seahorse
+gnome-disk-utility
+gnome-system-monitor
+gnome-calculator
+gnome-calendar
+gnome-text-editor
+gnome-weather
+gnome-clocks
+
+# Graphics/GPU
+mesa
+vulkan-radeon
+vulkan-intel
+nvidia
+nvidia-utils
+nvidia-settings
+cuda
+ocl-icd
+opencl-nvidia
+
+# Misc
+xdg-desktop-portal
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+xdg-user-dirs
+xdg-utils
+archlinux-xdg-menu
+pamixer
+brightnessctl
+upower
+acpi

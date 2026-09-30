@@ -1,0 +1,97 @@
+# AUR packages (require yay or other AUR helper)
+# Window managers / Compositors
+caelestia-git
+quickshell-git
+
+# Terminal emulators
+# (kitty, ghostty, foot, alacritty are in official repos)
+
+# Shell & CLI tools
+atuin
+navi
+chezmoi
+
+# Development tools
+visual-studio-code-bin
+github-desktop-bin
+postman-bin
+dbeaver
+insomnia-bin
+
+# Fonts
+nerd-fonts-jetbrains-mono
+ttf-ms-fonts
+
+# Theming/GTK
+nwg-look
+grimblast-git
+hyprshutdown
+hyprland-qtutils
+waybar-module-pacman-updates-git
+
+# Applications
+spotify
+spotify-adblock-linux-git
+brave-bin
+zen-browser-bin
+teamviewer
+anydesk-bin
+onlyoffice-bin
+android-studio
+genymotion
+vmware-workstation
+
+# System
+auto-cpufreq
+tlp
+tlp-rdw
+power-profiles-daemon
+cpupower-gui
+
+# Misc
+google-chrome
+microsoft-edge-stable-bin
+discord-canary
+vesktop-git
+signal-desktop
+whatsapp-for-linux
+telegram-desktop
+element-desktop
+
+# Development
+rust-analyzer
+lua-language-server
+typescript-language-server
+pyright
+gopls
+clang
+cmake-language-server
+yaml-language-server
+dockerfile-language-server-nodejs
+bash-language-server
+
+# Cloud/Containers
+aws-cli-v2
+azure-cli
+google-cloud-cli
+kubectl
+helm
+kind
+k9s
+terraform
+terragrunt
+vault
+consul
+nomad
+
+# Security
+burpsuite-pro
+metasploit
+nmap
+wireshark-qt
+ghidra
+radare2-cutter
+
+# AI/ML
+ollama
+llama.cpp
